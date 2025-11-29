@@ -20,7 +20,7 @@ def load_data():
             pass
     return {
         'players': [],
-        'teams': {f'Team {i+1}': {'budget': 5000000, 'players': []} for i in range(8)},
+        'teams': {f'Team {i+1}': {'budget': 5000, 'players': []} for i in range(6)},
         'team_names': [f'Team {i+1}' for i in range(8)],
         'current': 0,
         'auction_history': []
